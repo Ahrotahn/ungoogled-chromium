@@ -1,5 +1,8 @@
 container:
     dockerfile: .cirrus_Dockerfile
+    cpu: 4
+    memory: 16G
+    use_in_memory_disk: true
 
 code_check_task:
     pip_cache:

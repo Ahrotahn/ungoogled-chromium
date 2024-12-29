@@ -74,6 +74,7 @@ PRUNING_EXCLUDE_PATTERNS = [
     '*.wav',
     '*.flac',
     '*.icns',
+    '*.hyb',
     '*.woff',
     '*.woff2',
     '*makefile',

@@ -1,6 +1,7 @@
 build_with_tflite_lib=false
 chrome_pgo_phase=0
 clang_use_chrome_plugins=false
+devtools_bundle=false
 disable_fieldtrial_testing_config=true
 enable_hangout_services_extension=false
 enable_mdns=false

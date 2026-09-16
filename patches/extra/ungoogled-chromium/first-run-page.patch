@@ -10,7 +10,7 @@
    }
 --- a/chrome/browser/ui/webui/chrome_web_ui_configs.cc
 +++ b/chrome/browser/ui/webui/chrome_web_ui_configs.cc
-@@ -58,6 +58,7 @@
+@@ -57,6 +57,7 @@
  #include "chrome/browser/ui/webui/suggest_internals/suggest_internals_ui.h"
  #include "chrome/browser/ui/webui/sync_internals/sync_internals_ui.h"
  #include "chrome/browser/ui/webui/translate_internals/translate_internals_ui.h"
@@ -18,7 +18,7 @@
  #include "chrome/browser/ui/webui/usb_internals/usb_internals_ui.h"
  #include "chrome/browser/ui/webui/version/version_ui.h"
  #include "components/enterprise/buildflags/buildflags.h"
-@@ -313,6 +314,7 @@ void RegisterChromeWebUIConfigs() {
+@@ -311,6 +312,7 @@ void RegisterChromeWebUIConfigs() {
    map.AddWebUIConfig(std::make_unique<SuggestInternalsUIConfig>());
    map.AddWebUIConfig(std::make_unique<SyncInternalsUIConfig>());
    map.AddWebUIConfig(std::make_unique<TranslateInternalsUIConfig>());
